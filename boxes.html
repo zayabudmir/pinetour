@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        height: 500px;
+        background-color: dodgerblue;
+        display: grid;
+        grid-template-columns: repeat(2, 600px);
+        grid-template-rows: repeat(3, 500px);
+        gap: 12px;
+      }
+      .gray {
+        background-color: gray;
+        border: 2px solid black;
+        text-align: center;
+      }
+      .box {
+        color: white;
+        font-size: 40px;
+        grid-column: span;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box gray">1</div>
+      <div class="box gray">2</div>
+      <div class="box gray">3</div>
+      <div class="box gray">4</div>
+      <div class="box gray">5</div>
+      <div class="box gray">6</div>
+    </div>
+  </body>
+</html>
